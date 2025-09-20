@@ -1,0 +1,173 @@
+p {
+    padding: 10px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 100% da altura da tela */
+    margin: 0;
+    padding: 0;    
+    font-size: 0.4m;
+    font-family: 'Consolas', 'Courier New', 'Lucida Console', 'Monaco', 'Menlo', 'Liberation Mono', 'DejaVu Sans Mono', 'FreeMono', monospace;
+    background-color: #CCC;
+    color: #000;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
+    border: none;
+}
+
+nav a {
+    border: none;
+    color: #000;
+    background-color: #CCC;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 0.6cm;
+    flex-shrink: 0;
+    font-family: 'Consolas', 'Courier New', 'Lucida Console', 'Monaco', 'Menlo', 'Liberation Mono', 'DejaVu Sans Mono', 'FreeMono', monospace;
+    white-space: normal; /* Permite quebra automática */
+
+}
+
+nav a:hover {
+    color: #CCC;
+    background-color: #000;
+    font-size: 0.8cm;
+    margin: 5px;
+    padding: 15px;
+}
+
+
+
+div#content {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+}
+
+div#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 500px;
+
+}
+
+div#box1, div#box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    width: 400px;
+}
+
+div#box3, div#box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 225px;
+}
+
+div#box4, div#box6, div#box7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    min-width: 266px;
+    max-width: 300px;
+}
+
+div#box5, div#box8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    width: 570px;
+}
+
+.box {
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    border: 3px solid #BBB;
+    height: 450px;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+img {
+    min-width: 256px;
+}
+
+
+button {
+    border: none;
+    color: #000;
+    background-color: #CCC;
+    padding: 10px 10px 10px 10px;
+    font-size: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: normal; /* Permite quebra automática */
+    word-wrap: break-word; /* Quebra palavras grandes */
+}
+
+button:hover {
+    color: #CCC;
+    background-color: #000;
+    font-size: 0.5cm;
+}
+
+
+.p5px {padding: 5px;}
+.m5px {margin: 5px;}
+.null {
+    margin: 0px;
+    padding: 0px;
+}
+
