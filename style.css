@@ -113,40 +113,52 @@ div#box4 {
     max-width: 225px;
 }
 
-div#box4, div#box6, div#box7 {
+
+div#box5 , div#box7, div#box8 {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    min-width: 266px;
-    max-width: 300px;
+    width: 200px;
 }
 
-div#box5, div#box8 {
+div#box6, div#box9, div#box10, div#box11 {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    width: 570px;
+    width: 300px;
+}
+
+.box2 {
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.5s ease;
+    border: 2px solid #BBB;
 }
 
 .box {
     height: 420px;
     margin: 10px;
     padding: 10px;
+    margin: 20px;
     transition: all 0.5s ease;
     border: 2px solid #BBB;
+}
+
+.box2:hover {
+    border: 3px solid #BBB;
+    height: 330px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .box:hover {
     border: 3px solid #BBB;
     height: 450px;
-    margin: 0px;
     padding: 20px;
+    margin: 10px;
 }
-
 
 img {
     min-width: 256px;
