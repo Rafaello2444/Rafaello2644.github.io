@@ -6,7 +6,7 @@ p {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* 100% da altura da tela */
+    height: 100vh;
     margin: 0;
     padding: 0;    
     font-size: 0.4m;
@@ -38,7 +38,7 @@ nav a {
     text-decoration: none;
     font-size: 0.6cm;
     flex-shrink: 0;
-    white-space: normal; /* Permite quebra automática */
+    white-space: normal;
 
 }
 
@@ -129,7 +129,7 @@ div#box6, div#box9, div#box10, div#box11 {
 }
 
 .box2 {
-    height: 300px;
+    height: 350px;
     margin: 10px;
     padding: 10px;
     margin: 20px;
@@ -148,7 +148,7 @@ div#box6, div#box9, div#box10, div#box11 {
 
 .box2:hover {
     border: 3px solid #BBB;
-    height: 330px;
+    height: 380px;
     padding: 20px;
     margin: 10px;
 }
@@ -174,8 +174,8 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s ease;
-    white-space: normal; /* Permite quebra automática */
-    word-wrap: break-word; /* Quebra palavras grandes */
+    white-space: normal;
+    word-wrap: break-word;
     background-color: #000000;
 }
 
