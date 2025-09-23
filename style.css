@@ -128,14 +128,6 @@ div#box6, div#box9, div#box10, div#box11 {
     width: 300px;
 }
 
-.box2 {
-    height: 350px;
-    margin: 10px;
-    padding: 10px;
-    margin: 20px;
-    transition: all 0.5s ease;
-    border: 2px solid #BBB;
-}
 
 .box {
     height: 420px;
@@ -144,13 +136,6 @@ div#box6, div#box9, div#box10, div#box11 {
     margin: 20px;
     transition: all 0.5s ease;
     border: 2px solid #BBB;
-}
-
-.box2:hover {
-    border: 3px solid #BBB;
-    height: 380px;
-    padding: 20px;
-    margin: 10px;
 }
 
 .box:hover {
