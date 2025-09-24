@@ -67,7 +67,7 @@ div#content {
     flex: 1;
 }
 
-div#box {
+div#box, div#box02 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,15 +77,7 @@ div#box {
 
 }
 
-div#box1 {
-    display: flex;
-    align-items: center;
-    flex-direction: center;
-    border-radius: 10px;
-    width: 400px;
-}
-
-div#box2 {
+div#box1, div#box2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -99,8 +91,7 @@ div#box3 {
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    min-width: 400px;
-    max-width: 425px;
+    width: 400px;
 }
 
 div#box4 {
@@ -153,20 +144,24 @@ img {
 button {
     border: none;
     color: #000;
-    background-color: #CCC;
+    background-color: #C0C0C0;
+    margin: 0px;
     padding: 10px 10px 10px 10px;
-    font-size: inherit;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s ease;
+    text-decoration: none;
+    font-size: 0.6cm;
+    flex-shrink: 0;
     white-space: normal;
-    word-wrap: break-word;
-    background-color: #000000;
+
 }
 
 button:hover {
     color: #000;
-    font-size: 0.5cm;
+    font-size: 0.8cm;
+    margin: 5px;
+    padding: 15px;
 }
 
 
