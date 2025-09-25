@@ -67,16 +67,6 @@ div#content {
     flex: 1;
 }
 
-div#box, div#box02 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    min-width: 300px;
-    max-width: 500px;
-
-}
-
 div#box1, div#box2 {
     display: flex;
     align-items: center;
@@ -129,7 +119,23 @@ div#box6, div#box9, div#box10, div#box11 {
     border: 2px solid #BBB;
 }
 
-.box:hover {
+.box2 {
+    height: 420px;
+    margin: 10px;
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.5s ease;
+    border: 2px solid #BBB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 500px;
+
+}
+
+.box:hover, .box:hover {
     border: 3px solid #BBB;
     height: 450px;
     padding: 20px;
