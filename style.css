@@ -1,21 +1,35 @@
-p {
-    padding: 10px;
+@font-face {
+    font-family: 'FonteBonita';
+    src: url('BodoniModaSC-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+p {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: FonteBonita;
+    font-size: 25px;
+    color: #0e0707;
+}
 
 body {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
     padding: 0;    
-    font-size: 0.4m;
-    background-color: #CCC;
-    color: #0e0707;
+    background-color: #f6eef6;
 }
 
 
 nav {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: center;
@@ -27,24 +41,24 @@ nav {
 }
 
 nav a {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     border: none;
-    color: #000;
-    background-color: #CCC;
+    color: #444444;
+    background-color: #f6eef6;
     margin: 0px;
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s ease;
     text-decoration: none;
-    font-size: 0.6cm;
     flex-shrink: 0;
     white-space: normal;
 
 }
 
 nav a:hover {
-    color: #000;
-    font-size: 0.8cm;
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    color: #444444;
     margin: 5px;
     padding: 15px;
 }
@@ -52,6 +66,7 @@ nav a:hover {
 
 
 div#content {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +83,7 @@ div#content {
 }
 
 div#box1, div#box2 {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -76,6 +92,7 @@ div#box1, div#box2 {
 }
 
 div#box3 {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,6 +102,7 @@ div#box3 {
 }
 
 div#box4 {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,6 +114,7 @@ div#box4 {
 
 
 div#box5 , div#box7, div#box8 {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -103,6 +122,7 @@ div#box5 , div#box7, div#box8 {
 }
 
 div#box6, div#box9, div#box10, div#box11 {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -111,21 +131,23 @@ div#box6, div#box9, div#box10, div#box11 {
 
 
 .box {
-    height: 420px;
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    height: 430px;
     margin: 10px;
     padding: 10px;
     margin: 20px;
     transition: all 0.5s ease;
-    border: 2px solid #BBB;
+    border: 2px solid #BBBBBB;
 }
 
 .box2 {
-    height: 420px;
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    height: 430px;
     margin: 10px;
     padding: 10px;
     margin: 20px;
     transition: all 0.5s ease;
-    border: 2px solid #BBB;
+    border: 2px solid #BBBBBB;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -135,45 +157,73 @@ div#box6, div#box9, div#box10, div#box11 {
 
 }
 
-.box:hover, .box:hover {
-    border: 3px solid #BBB;
-    height: 450px;
+.box3 {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    height: 430px;
+    margin: 10px;
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.5s ease;
+    border: 2px solid #BBBBBB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.box:hover, .box2:hover {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    border: 3px solid #BBBBBB;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box3:hover {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    border: 3px solid #BBBBBB;
+    height: 400px;
     padding: 20px;
     margin: 10px;
 }
 
 img {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     min-width: 256px;
 }
 
 
 button {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     border: none;
-    color: #000;
-    background-color: #C0C0C0;
+    color: #444444;
+    background-color: #F4C6CF;
     margin: 0px;
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s ease;
     text-decoration: none;
-    font-size: 0.6cm;
     flex-shrink: 0;
     white-space: normal;
 
 }
 
 button:hover {
-    color: #000;
-    font-size: 0.8cm;
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
+    color: #444444;
     margin: 5px;
     padding: 15px;
 }
 
 
-.p5px {padding: 5px;}
-.m5px {margin: 5px;}
+.p5px {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;padding: 5px;}
+.m5px {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;margin: 5px;}
 .null {
+    font-family: PublicSans, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
