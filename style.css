@@ -49,7 +49,7 @@ nav a {
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     text-decoration: none;
     flex-shrink: 0;
     white-space: normal;
@@ -58,9 +58,8 @@ nav a {
 
 nav a:hover {
     font-family: PublicSans, Helvetica, Arial, sans-serif;
-    color: #444444;
-    margin: 5px;
-    padding: 15px;
+    transform: scale(1.2);
+    margin: 20px;
 }
 
 
@@ -136,7 +135,7 @@ div#box6, div#box9, div#box10, div#box11 {
     margin: 10px;
     padding: 10px;
     margin: 20px;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     border: 2px solid #BBBBBB;
 }
 
@@ -146,7 +145,7 @@ div#box6, div#box9, div#box10, div#box11 {
     margin: 10px;
     padding: 10px;
     margin: 20px;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     border: 2px solid #BBBBBB;
     display: flex;
     align-items: center;
@@ -163,7 +162,7 @@ div#box6, div#box9, div#box10, div#box11 {
     margin: 10px;
     padding: 10px;
     margin: 20px;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     border: 2px solid #BBBBBB;
     display: flex;
     align-items: center;
@@ -175,17 +174,15 @@ div#box6, div#box9, div#box10, div#box11 {
 .box:hover, .box2:hover {
     font-family: PublicSans, Helvetica, Arial, sans-serif;
     border: 3px solid #BBBBBB;
-    height: 400px;
-    padding: 20px;
-    margin: 10px;
+    background-color: #F4C6CF;
+    transform: scale(1.3);
 }
 
 .box3:hover {
     font-family: PublicSans, Helvetica, Arial, sans-serif;
     border: 3px solid #BBBBBB;
-    height: 400px;
-    padding: 20px;
-    margin: 10px;
+    background-color: #F4C6CF;
+    transform: scale(1.3);
 }
 
 img {
@@ -203,18 +200,17 @@ button {
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     text-decoration: none;
     flex-shrink: 0;
     white-space: normal;
+    width: 100px;
 
 }
 
 button:hover {
     font-family: PublicSans, Helvetica, Arial, sans-serif;
-    color: #444444;
-    margin: 5px;
-    padding: 15px;
+    transform: scale(1.2);
 }
 
 
