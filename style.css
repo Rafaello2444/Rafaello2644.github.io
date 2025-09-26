@@ -175,14 +175,14 @@ div#box6, div#box9, div#box10, div#box11 {
     font-family: PublicSans, Helvetica, Arial, sans-serif;
     border: 3px solid #BBBBBB;
     background-color: #F4C6CF;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .box3:hover {
     font-family: PublicSans, Helvetica, Arial, sans-serif;
     border: 3px solid #BBBBBB;
     background-color: #F4C6CF;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 img {
